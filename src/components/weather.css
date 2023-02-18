@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+Main{
+    /* background-color: red; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    background: url("https://images.pexels.com/photos/1431822/pexels-photo-1431822.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input{
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    height: 5vh;
+    width: 80%;
+    padding-left: .5rem;
+}
+::placeholder{
+    padding-left: .5rem;
+    color: black;
+}
+form{
+    /* border: 1px solid black; */
+    /* margin-bottom: 3rem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+button{
+    width: 30%;
+    height: 5vh;
+    border-radius: 4px;
+    background-color: #679289;
+    border: none;
+}
+.details{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    /* margin: 1rem; */
+}
+.temp{
+    display: flex;
+    justify-content: space-around;
+}
+.id{
+    justify-content: space-around;
+}
+.weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+.name{
+    font-size: 22px;
+}
